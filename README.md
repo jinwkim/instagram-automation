@@ -141,8 +141,8 @@ Project Link: [https://github.com/jinwkim/instagram-automation](https://github.c
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Fábio Neves](https://towardsdatascience.com/increase-your-instagram-followers-with-a-simple-python-bot-fde048dce20d)
-* [othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md#about-the-project)
+* [Fábio Neves](https://towardsdatascience.com/increase-your-instagram-followers-with-a-simple-python-bot-fde048dce20d) - Inspiration for Code
+* [othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md#about-the-project) - README Template
 
 
 
