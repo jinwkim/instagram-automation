@@ -59,9 +59,9 @@
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Python](https://www.python.org/downloads/) - coding language used
+* [Jupyter](https://jupyter.org/) - used to run Python code
+* [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) - used to automate navigating the web
 
 
 
@@ -92,6 +92,7 @@ jupyter notebook
 ```python
 chromedriver_path = "/Users/jinwkim/Downloads/chromedriver" # Change to your chromedriver path
 un, pw = "", "" # Change to your username/password
+hashtag_list = ["Food","FoodPorn","InstaFood"] # Change to your desired hashtags
 ```
 
 
