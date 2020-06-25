@@ -1,6 +1,3 @@
-# instagram-automation
-Python code to automate liking, commenting, and following new users on Instagram based on popular hash tags
-
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -19,10 +16,10 @@ Python code to automate liking, commenting, and following new users on Instagram
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Instagram Automation</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Using Python and Selenium to automate the process of increasing Instagram engagement -- automatically navigate to top hash tags, click on top recent images, like and comment, and follow the user.
     <br />
     <a href="https://github.com/jinwkim/instagram-automation"><strong>Explore the docs »</strong></a>
     <br />
@@ -62,9 +59,9 @@ Python code to automate liking, commenting, and following new users on Instagram
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Python](https://www.python.org/downloads/) - coding language used
+* [Jupyter](https://jupyter.org/) - used to run Python code
+* [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) - used to automate navigating the web
 
 
 
@@ -75,11 +72,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+* Python
+* [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) / Selenium
+* [Jupyter Notebook](https://jupyter.org/)
 
 ### Installation
  
@@ -87,11 +82,18 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/jinwkim/instagram-automation.git
 ```
-2. Install NPM packages
-```sh
-npm install
-```
+2. Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) from the web and save in an accessible directory.
 
+3. Start Jupyter Notebook and open the instagram-automation.ipynb file.
+```sh
+jupyter notebook
+```
+4. In the instagram-automation.ipynb notebook, edit the following lines:
+```python
+chromedriver_path = "/Users/jinwkim/Downloads/chromedriver" # Change to your chromedriver path
+un, pw = "", "" # Change to your username/password
+hashtag_list = ["Food","FoodPorn","InstaFood"] # Change to your desired hashtags
+```
 
 
 <!-- USAGE EXAMPLES -->
@@ -158,7 +160,7 @@ Project Link: [https://github.com/jinwkim/instagram-automation](https://github.c
 [issues-shield]: https://img.shields.io/github/issues/jinwkim/instagram-automation.svg?style=flat-square
 [issues-url]: https://github.com/jinwkim/instagram-automation/issues
 [license-shield]: https://img.shields.io/github/license/jinwkim/instagram-automation.svg?style=flat-square
-[license-url]: https://github.com/jinwkim/instagram-automation/blob/master/LICENSE.txt
+[license-url]: https://github.com/jinwkim/instagram-automation/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jinwoookim/
 [product-screenshot]: images/screenshot.png
