@@ -1,6 +1,3 @@
-# instagram-automation
-Python code to automate liking, commenting, and following new users on Instagram based on popular hash tags
-
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -77,7 +74,7 @@ To get a local copy up and running follow these simple steps.
 
 * Python
 * [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) / Selenium
-* [Jupyter Notebook] (https://jupyter.org/)
+* [Jupyter Notebook](https://jupyter.org/)
 
 ### Installation
  
