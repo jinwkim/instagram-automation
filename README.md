@@ -111,7 +111,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 See the [open issues](https://github.com/jinwkim/instagram-automation/issues) for a list of proposed features (and known issues).
 
 
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -135,7 +134,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Jin Kim - [@jinwoookim_](https://www.instagram.com/jinwoookim_/) - jinwkim@alum.mit.edu
+[Jin Kim](https://itsjinkim.com/) - [@jinwoookim_](https://www.instagram.com/jinwoookim_/) - jinwkim@alum.mit.edu
 
 Project Link: [https://github.com/jinwkim/instagram-automation](https://github.com/jinwkim/instagram-automation)
 
@@ -160,7 +159,7 @@ Project Link: [https://github.com/jinwkim/instagram-automation](https://github.c
 [issues-shield]: https://img.shields.io/github/issues/jinwkim/instagram-automation.svg?style=flat-square
 [issues-url]: https://github.com/jinwkim/instagram-automation/issues
 [license-shield]: https://img.shields.io/github/license/jinwkim/instagram-automation.svg?style=flat-square
-[license-url]: https://github.com/jinwkim/instagram-automation/blob/master/LICENSE
+[license-url]: https://github.com/jinwkim/instagram-automation/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jinwoookim/
 [product-screenshot]: images/screenshot.png
