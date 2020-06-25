@@ -19,10 +19,10 @@ Python code to automate liking, commenting, and following new users on Instagram
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Instagram Automation</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Using Python and Selenium to automate the process of increasing Instagram engagement -- automatically navigate to top hash tags, click on top recent images, like and comment, and follow the user.
     <br />
     <a href="https://github.com/jinwkim/instagram-automation"><strong>Explore the docs »</strong></a>
     <br />
@@ -75,11 +75,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+* Python
+* [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) / Selenium
+* [Jupyter Notebook] (https://jupyter.org/)
 
 ### Installation
  
@@ -87,11 +85,17 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/jinwkim/instagram-automation.git
 ```
-2. Install NPM packages
-```sh
-npm install
-```
+2. Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home/) from the web and save in an accessible directory.
 
+3. Start Jupyter Notebook and open the instagram-automation.ipynb file.
+```sh
+jupyter notebook
+```
+4. In the instagram-automation.ipynb notebook, edit the following lines:
+```python
+chromedriver_path = "/Users/jinwkim/Downloads/chromedriver" # Change to your chromedriver path
+un, pw = "", "" # Change to your username/password
+```
 
 
 <!-- USAGE EXAMPLES -->
