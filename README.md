@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+If you are actively trying to get new followers for your Instagram profile, you may spend hours looking through new content, leaving likes and comments, and following new users. This project aims to alleviate some of the burden by automating the process. The Python code in this project will automatically open up a browser, log in with your account into Instagram, navigate to hash tags you specify, click on the first "x" number of top images, leave a like/comment (you can alter the pool of randomly selected comments), and follow the user.
 
 
 ### Built With
@@ -99,9 +99,7 @@ hashtag_list = ["Food","FoodPorn","InstaFood"] # Change to your desired hashtags
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Use a Jupyter Notebook to run the code!
 
 
 
